@@ -54,7 +54,7 @@ void setup() {
   // this library has been optimized a bit and we're proud of it :)
   int time = millis();
   lcd.setCursor(0,0);
-  lcd.print("Hello, world!");
+  lcd.print("Hello, Tord!");
   time = millis() - time;
   lcd.setCursor(0, 1);
   Serial.print("Took "); Serial.print(time); Serial.println(" ms");
